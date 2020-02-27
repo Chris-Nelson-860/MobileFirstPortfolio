@@ -23,7 +23,7 @@
     /* Font Sizes */
     --h1FontSize:1.5rem;
     --h2FontSize:1.5rem;
-    --h3FageSize:.74em;
+    --h3FontSize:.74em;
     --pFontSize:1em;
 }
 body{
@@ -75,3 +75,31 @@ a:hover{
 
 /* === END HEADER === */
 
+/* === MAIN === */
+.main{
+    width: 100vw;
+}
+.main__title{
+    text-align: center;
+    padding: 1rem;
+}
+/* -- main cards -- */
+.card{
+    margin:0 auto 1rem auto;
+    width: 90%;
+}
+.card__image{
+    width: 100%;
+}
+.card__title{
+    padding: 5px;
+    text-align: center;
+}
+.card__paragraph{
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+/* --end main cards-- */
+
+/* === END MAIN === */
