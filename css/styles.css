@@ -142,12 +142,12 @@ a:hover{
 }
 .footer__name{
     float: left;
-    padding: 2rem;
+    padding: 20px 0 20px 5%;
 }
 .footer__toTop{
     color: inherit;
     float: right;
-    padding: 2rem;
+    padding: 20px 5% 20px 0;
     text-decoration: none;
 }
 
