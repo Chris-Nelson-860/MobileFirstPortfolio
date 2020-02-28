@@ -150,6 +150,39 @@ a:hover{
 /* === END FOOTER === */
 
 
+/* MEDIA QUERIES */
+
+/* -- TABLET -- */
+@media screen and (min-width: 480px){
+    /* header */
+    .header__nav{
+        margin: 0 auto;
+        width: 50%;
+    }
+    .header__nav__li{
+        background-color: inherit;
+        display: inline-block;
+        float: left;
+        width: 33.33%;
+    }
+    .header__image{
+        float:right;
+        margin-right: 5%;
+        margin-left: 2.5%;
+        width: 42.5%;
+    }
+    .header__p{
+        float: left;
+        text-align: left;
+        margin-left: 5%;
+        margin-right: 2.5%;
+        width: 42.5%;
+    }
+}
+
+
+
+
 /* Clear fix */
 .clearfix{
     content:"";
