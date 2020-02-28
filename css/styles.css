@@ -137,7 +137,7 @@ a:hover{
     color: inherit;
 }
 .footer__hr{
-    margin-top: 2rem;
+    margin-top: 20px;
     
 }
 .footer__name{
@@ -149,6 +149,10 @@ a:hover{
     float: right;
     padding: 20px 5% 20px 0;
     text-decoration: none;
+}
+
+.footer__nav__li{
+    display: none;
 }
 
 /* === END FOOTER === */
@@ -195,6 +199,30 @@ a:hover{
     .footer__p{
         width: 70%;
     }
+    .footer__name{
+        background-color: inherit;
+        float: left;
+    }
+    .footer__nav{
+        background-color: inherit;
+        float: right;
+        width: 50%;
+    }
+    .footer__toTop{
+        display: none;
+    }
+    .footer__nav{
+        display: block;
+        float: right;
+        margin-right: 2.5%;
+        padding: 20px 0;
+    
+    }
+    .footer__nav__li{
+        display: inline-block;
+        width: 30%;
+        text-align: right;
+    }
 }
 
 /* === THREE COLUMN LAYOUT === */
@@ -240,6 +268,28 @@ a:hover{
     margin-right: 0;
     width: 30%;
 }
+.footer__name{
+    float: left;
+}
+.footer__nav{
+    background-color: inherit;
+    float: right;
+    width: 50%;
+}
+.footer__toTop{
+    display: none;
+}
+.footer__nav{
+    display: block;
+    float: right;
+    margin-right: 2.5%;
+    padding: 20px 0;
+
+}
+.footer__nav__li{
+    display: inline-block;
+    width: 33.33%;
+    text-align: right;
 }
 
 
