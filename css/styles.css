@@ -43,7 +43,8 @@ body{
     width: 100%;
 }
 .header__nav{
-    margin-bottom: 2rem;
+    margin: 0 auto 32px auto;
+    width: 90%;
 }
 .header__nav__li{
     background-color: white;
@@ -54,6 +55,8 @@ body{
 }
 li a{
     color:inherit;
+    display: block;
+    width: 100%;
     text-decoration: none;
 }
 .header__image{
