@@ -207,6 +207,11 @@ a:hover{
         width: 30%;
         text-align: right;
     }
+    .clearfix{
+        content:"";
+        display:table;
+        clear:both;
+      }
 }
 
 /* === THREE COLUMN LAYOUT === */
