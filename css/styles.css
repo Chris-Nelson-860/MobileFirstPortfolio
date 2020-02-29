@@ -138,6 +138,11 @@ a:hover{
 .footer__nav__li{
     display: none;
 }
+.clearfix{
+    content:"";
+    display:table;
+    clear:both;
+  }
 
 /* === END FOOTER === */
 
