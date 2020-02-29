@@ -267,21 +267,18 @@ a:hover{
 }
 .footer__nav{
     background-color: inherit;
+    display: block;
     float: right;
+    margin-right: 2.5%;
+    padding: 20px 0;
     width: 50%;
 }
 .footer__toTop{
     display: none;
 }
-.footer__nav{
-    display: block;
-    float: right;
-    margin-right: 2.5%;
-    padding: 20px 0;
 
-}
 .footer__nav__li{
-    display: inline-block;
+    float: left;
     width: 33.33%;
     text-align: right;
 }
